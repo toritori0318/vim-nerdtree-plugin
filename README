@@ -1,0 +1,6 @@
+* ack_menuitem.vim
+NERDTreeメニュー（g）からackを実行するプラグインです
+
+* quickrun_keymap.vim
+NERDTreeのキーマップ（rr）からquickrunを実行するプラグインです
+
