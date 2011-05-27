@@ -4,3 +4,6 @@ NERDTreeメニュー（g）からackを実行するプラグインです
 * quickrun_keymap.vim
 NERDTreeのキーマップ（rr）からquickrunを実行するプラグインです
 
+* callex_keymap.vim
+NERDTreeのキーマップ（ca）からファイルに関連づいているアプリケーションを実行するプラグインです
+
