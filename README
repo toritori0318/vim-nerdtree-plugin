@@ -7,3 +7,6 @@ NERDTreeのキーマップ（rr）からquickrunを実行するプラグイン�
 * callex_keymap.vim
 NERDTreeのキーマップ（ca）からファイルに関連づいているアプリケーションを実行するプラグインです
 
+* callsh_keymap.vim
+NERDTreeのキーマップ（sh）から指定したディレクトリでターミナル（iTerm2）を開くプラグインです
+
