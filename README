@@ -10,3 +10,6 @@ NERDTreeのキーマップ（ca）からファイルに関連づいているア�
 * callsh_keymap.vim
 NERDTreeのキーマップ（sh）から指定したディレクトリでターミナル（iTerm2）を開くプラグインです
 
+* callfinder_keymap.vim
+NERDTreeのキーマップ（fd）から指定したファイル／ディレクトリでFinderを開くプラグインです
+
