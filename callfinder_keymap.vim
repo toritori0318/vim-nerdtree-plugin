@@ -11,15 +11,9 @@ call NERDTreeAddKeyMap({
     \ 'callback': 'NERDTreeCallFinder',
     \ 'quickhelpText': 'Call Finder Command' })
 
-function! s:echo(msg)
-    redraw
-    echomsg "NERDTree: " . a:msg
-endfunction
-
 function! NERDTreeCallFinder()
     let currentNode = g:NERDTreeFileNode.GetSelected()
     try
-        " open -n -a 'iTerm' --args 'cd dir; #'
         cgetexpr system(g:callfinder_cmd . " " . currentNode.path.str())
     catch /^Vim\%((\a\+)\)\=:/
         echo v:exception

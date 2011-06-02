@@ -12,11 +12,6 @@ call NERDTreeAddKeyMap({
     \ 'callback': 'NERDTreeCallEx',
     \ 'quickhelpText': 'Call External Command' })
 
-function! s:echo(msg)
-    redraw
-    echomsg "NERDTree: " . a:msg
-endfunction
-
 function! NERDTreeCallEx()
     let currentNode = g:NERDTreeFileNode.GetSelected()
     if currentNode.path.isDirectory
